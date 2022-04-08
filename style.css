@@ -6,13 +6,12 @@ h1 {
     background-color: pink;    
     }
 [class^="navbar"]{
-    font-family: 
+    font-family: Georgia, 'Times New Roman', Times, serif
     }
 
     .welness{
-    
     background-size: cover;
-    grid-row: 2/3;
-    grid-column:2/3 ;
-    border-color: 10px solid #ed8b00;
+    height: 10%;
+    width:min-content ;
+    
     }
