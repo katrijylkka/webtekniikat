@@ -1,6 +1,6 @@
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+
     }
 [class^="col"]{
     border: 1px solid black;
@@ -10,9 +10,16 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif
     }
 
-   img{
-    border-radius: 8px;
+img{
+    border-radius: ;
+    opacity: 0.8;
     height:50%   
    } 
+
+.kuumakivi{
+     border-radius: 8px;
+       
+
+   }
     
     
