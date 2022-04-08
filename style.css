@@ -6,5 +6,13 @@ h1 {
     background-color: pink;    
     }
 [class^="navbar"]{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 
+    }
+
+    .welness{
+    
+    background-size: cover;
+    grid-row: 2/3;
+    grid-column:2/3 ;
+    border-color: 10px solid #ed8b00;
     }
