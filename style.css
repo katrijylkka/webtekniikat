@@ -19,7 +19,13 @@ img{
 .kuumakivi{
      border-radius: 8px;
        
-
    }
+
+   [class^="accordion"]{
+    background-color: rgb(226, 214, 197);
+       
+   }
+
+   
     
     
