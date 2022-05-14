@@ -1,7 +1,12 @@
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
+h1 { 
+    font-family:'Pacifico', cursive;
+    font-weight: lighter
     }
+h2   { 
+    font-family:'Pacifico', cursive;
+    font-weight: lighter
+    }  
+
 [class^="col"]{
     border: 1px solid black;
     background-color: rgba(199, 162, 117, 0.753);    
@@ -11,7 +16,7 @@ h1 {
     }
 
 img{
-    border-radius: ;
+    
     opacity: 0.8;
     object-fit: cover;  
    } 
@@ -21,10 +26,16 @@ img{
        
    }
 
-   [class^="accordion"]{
+[class^="accordion"]{
     background-color: rgb(226, 214, 197);
        
    }
+
+ /* divien  */
+ 
+ #background{
+     background-color: lightpink;
+ }
 
    
     
