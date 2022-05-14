@@ -5,7 +5,8 @@ h1 {
 h2   { 
     font-family:'Pacifico', cursive;
     font-weight: lighter
-    }  
+    } 
+   
 
 [class^="col"]{
     border: 1px solid black;
@@ -36,7 +37,6 @@ img{
  #background{
      background-color: lightpink;
  }
-
    
     
     
