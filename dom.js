@@ -2,7 +2,7 @@
 
 //Yksinkertainen otsikon manipulointi
 
-document.querySelector("h2").textContent= "Tietoa yrittäjästä";
+
 
 //Tässä luodaan uusi li-elementti listaan ja poistetaan ensimmäinen elementti
 

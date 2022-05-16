@@ -17,22 +17,17 @@ h1 {
 
 h2{ 
 
-    @include flexCenter();
+        @include flexCenter();
 
-    font-family:'Pacifico', cursive;
-    font-weight: lighter;
-    color: $textColor ;
-    text-decoration: underline;
-    text-align: center;
-    border: 2px black;
-    } 
+        font-family:'Pacifico', cursive;
+        font-weight: lighter;
+        color: $textColor ;
+        text-decoration: underline;
+        text-align: center;
+        border: 2px black;
+        } 
 
 
-
-article {
-
-    
-}
 
 #content {
 
@@ -60,7 +55,8 @@ ul{
 }
 
 [class^="col"]{
-    background-color: rgba(159, 132, 111, 0.982);    
+    background-color: rgba(159, 132, 111, 0.982);
+    border: 2px black;    
     }
 
 
@@ -96,13 +92,9 @@ article {
     
 }
 .button1{
-   text-align: center;
-   margin: auto;
-   display: flex;
+    @include flexCenter();
 }
 .button2{
-   text-align: center;
-   margin: auto;
-   display: flex;
+    @include flexCenter();
    margin-top: 1cm;
 }
