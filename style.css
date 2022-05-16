@@ -106,19 +106,34 @@ img{
   border-radius:12px ;    
 }
 
-  button.accordion-button {
+button.accordion-button {
     background-color:  rgb(226, 214, 197) ;
 }
 
-   [class^="accordion-header"]{
+[class^="accordion-header"]{
     background-color: rgb(226, 214, 197);
          
-
+}
  /* divien  */
  
- #background{
-     background-color: lightpink;
+ article {
+     text-align: center;
  }
-   
+
+ #content {
+     text-align: center;
+     
+ }
+.button1{
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+.button2{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-top: 1cm;
+}
     
     

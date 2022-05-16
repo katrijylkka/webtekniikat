@@ -34,3 +34,12 @@ function myFunction() {
     document.getElementById("background").style.backgroundColor = "rgb(226, 214, 197)";
   }
 
+// Tässä on käytössä RandomFox API
+
+
+fetch('https://randomfox.ca/floof/')
+.then(response => response.json())
+.then(
+data => document.getElementById('print-here').innerHTML 
+  = '<img src="' + data.image + '"/>'
+  );
