@@ -29,8 +29,7 @@ h2{
 
 
 
-article {
-
+article{
     
 }
 
@@ -60,7 +59,8 @@ ul{
 }
 
 [class^="col"]{
-    background-color: rgba(159, 132, 111, 0.982);    
+    background-color: rgba(159, 132, 111, 0.982);
+    border: 2px black;    
     }
 
 
@@ -96,13 +96,9 @@ article {
     
 }
 .button1{
-   text-align: center;
-   margin: auto;
-   display: flex;
+    @include flexCenter();
 }
 .button2{
-   text-align: center;
-   margin: auto;
-   display: flex;
+    @include flexCenter();
    margin-top: 1cm;
 }

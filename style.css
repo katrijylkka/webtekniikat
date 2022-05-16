@@ -80,15 +80,26 @@ img{
     object-fit: cover;  
    } 
 
-.kuumakivi{
-     border-radius: 8px;
-       
-   }
+
+
 .img-fluid{
     width:  1500px;
-    height: 300px;
-    
+    height: 300px;    
 } 
+
+
+
+.img-thumbnail{
+    display: flex;
+    justify-content: center;
+    align-items: center ;    
+}
+
+.rounded {
+    padding: 1cm;
+    width: 230px;
+    height: 250px;
+}
 
 #responsive-image {
  margin-bottom: 1cm;
@@ -109,6 +120,8 @@ img{
 button.accordion-button {
     background-color:  rgb(226, 214, 197) ;
 }
+
+
 
 [class^="accordion-header"]{
     background-color: rgb(226, 214, 197);
@@ -136,4 +149,13 @@ button.accordion-button {
     margin-top: 1cm;
 }
     
+#list-group {
+    width: 10cm;
+    height: 2cm;
     
+}   
+
+.list-grouplist-group-flush {
+   width: 15cm;
+   margin-top: 1cm; 
+}
