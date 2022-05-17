@@ -1,9 +1,6 @@
-//Dom-manipulointi
+//Dom-manipulointi, eventit ja Rest-Api
 
-//Yksinkertainen otsikon manipulointi
-
-
-
+// Tässä on muo
 //Tässä luodaan uusi li-elementti listaan ja poistetaan ensimmäinen elementti
 
 let ul = document.querySelector("#list");
@@ -12,7 +9,39 @@ li.textContent = "Kuumakivihoitaja"
 ul.appendChild(li)
 ul.firstElementChild.remove();
 
-// Tässä näkee milloin sivustoa on viimeks muokattu
+
+
+// Tässä muokattu tyylejä  
+//
+//
+//
+
+// Tässä on käytössä RandomFox API (Rest)
+
+
+fetch('https://randomfox.ca/floof/')
+.then(response => response.json())
+.then(
+data => document.getElementById('print-here').innerHTML 
+  = '<img src="' + data.image + '"/>'
+  );
+
+
+
+// Eventtejä //Eventtejä // Eventtejä //Eventtejä //Eventtejä //Eventtejä //Eventtejä
+
+  // Tässä eventissä tulee alert, kun napin päälle viedään hiiri
+
+ let button = document.getElementById("try")
+
+ button.addEventListener("mouseover", tryFunction);
+ 
+ function tryFunction() {
+  alert("Paina ()-nappi pohjaan saadaksesi eventin aikaan"), (false);
+
+ }
+
+ // Tässä näkee milloin sivustoa on viimeks muokattu
 
 document.getElementById("upDate").innerHTML = document.lastModified;
 
@@ -25,21 +54,21 @@ function myFunction() {
     openCv.document.close();
   }
 
-// Tässä muokattu tyylejä  
-
-
 //tässä muutettu taustan väriä napin painalluksella
 
+let button2 = document.getElementById("button2")
+button2.addEventListener("click", myColorFunction)
+
  function myColorFunction() {
-    document.getElementById("background").style.backgroundColor = "rgb(226, 214, 197)";
-  }
-
-// Tässä on käytössä RandomFox API
+    document.getElementById("background").style.backgroundColor = "rgb(10, 56, 10)";
+  }  
 
 
-fetch('https://randomfox.ca/floof/')
-.then(response => response.json())
-.then(
-data => document.getElementById('print-here').innerHTML 
-  = '<img src="' + data.image + '"/>'
-  );
+ // Kun footeria klikkaa muuttuu 
+let footer = document.getElementById("text");
+
+footer.addEventListener("click", myFooterFunction)
+
+function myFooterFunction() {
+  document.getElementById("footer").innerHTML = " <p>KIITOS KUN ASIOIT MEILLÄ! <br> NOTKEUDESSA NÄHDÄÄN!</p>";
+}

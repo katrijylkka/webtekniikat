@@ -1,3 +1,169 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-weight: lighter;
+}
 
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-weight: lighter;
+  color: black;
+  text-decoration: underline;
+  margin-top: 2cm;
+  margin-bottom: 1cm;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-bottom: 2cm;
+}
+
+p {
+  color: white;
+  margin-top: 10px;
+}
+
+li > p {
+  background-color: rgb(211, 84, 49);
+  color: white;
+  text-decoration: underline;
+}
+
+p + article {
+  color: white;
+  text-decoration: solid;
+  font-size: larger;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+#button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 1cm;
+  background-color: beige;
+  border-radius: 50%;
+  padding: 50px;
+  font-family: "Pacifico", cursive;
+}
+
+#try {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 1cm;
+  background-color: beige;
+  border-radius: 50%;
+  padding: 50px;
+  font-family: "Pacifico", cursive;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#list {
+  margin-top: 2cm;
+  margin-bottom: 2cm;
+  font-size: xx-large;
+}
+
+[class^=button] {
+  background-color: beige;
+  border-radius: 50%;
+  padding: 50px;
+  font-family: "Pacifico", cursive;
+}
+
+[class^=col] {
+  background-color: rgba(159, 132, 111, 0.982);
+}
+
+#print-here {
+  width: 100px;
+  height: 100px;
+}
+
+img {
+  width: 250px;
+  height: auto;
+  margin-top: 1cm;
+  margin-bottom: 2cm;
+  background: cover;
+}
+
+.img-fluid {
+  height: 1000px;
+}
+
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(159, 132, 111, 0.982);
+  padding-left: 30cm;
+}
+
+.nav-link {
+  font-family: "Pacifico", cursive;
+  font-weight: lighter;
+  font-size: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-link:hover {
+  background-color: beige;
+}
+
+#footer {
+  background-color: rgb(211, 84, 49);
+  object-fit: cover;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.invalid {
+  background-color: rgb(211, 84, 49);
+}
 
 /*# sourceMappingURL=built.css.map */

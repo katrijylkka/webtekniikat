@@ -47,9 +47,9 @@ p {
 }   
 
 
-[class^="navbar"]{
-    font-family: Georgia, 'Times New Roman', Times, serif
-    }
+.container-fluid {
+    background-color: #f5f5dc;
+}
 
 .navbar-brand{
     font-family:'Pacifico', cursive;
@@ -59,6 +59,7 @@ p {
 
 .navbar-nav{
     text-align: center;
+    
 }
 
 
@@ -158,4 +159,12 @@ button.accordion-button {
 .list-grouplist-group-flush {
    width: 15cm;
    margin-top: 1cm; 
+}
+
+.card {
+    margin-bottom: 1cm   
+}
+
+.card-text {
+    color: black;
 }
