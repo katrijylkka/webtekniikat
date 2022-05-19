@@ -94,6 +94,10 @@ article {
   text-align: center;
 }
 
+h2 ~ p {
+  background: rgb(211, 84, 49);
+}
+
 #list {
   margin-top: 2cm;
   margin-bottom: 2cm;
