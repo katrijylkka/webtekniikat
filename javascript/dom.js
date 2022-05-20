@@ -71,14 +71,11 @@ data => document.getElementById('print-here').innerHTML
   // Tässä eventissä tulee alert, kun napin päälle viedään hiiri
 
  var button = document.getElementById("try")
-
  button.addEventListener("mouseover", tryFunction);
  
- function tryFunction() {
+  function tryFunction() {
   alert("Paina ()-nappi pohjaan saadaksesi eventin aikaan"), (false);
-
- }
-
+  }
 
  // Tässä näkee milloin sivustoa on viimeks muokattu
 
@@ -102,13 +99,35 @@ footer.addEventListener("click", myFooterFunction)
     document.getElementById("footer").innerHTML = " <p>KIITOS KUN ASIOIT MEILLÄ! <br> NOTKEUDESSA NÄHDÄÄN!</p>";
   }
 
+
+// Tässä on eventti, jossa input kenttään pitää kirjoittaa oikea teksti, saadakseen palautteen  
+
+let numbers = document.getElementById("numbers")
+numbers.addEventListener("input", checkNumbers)
+
+function checkNumbers() {
+  let text = numbers.value;
+  correct1 = "Vastasit oikein!"
+
+  if (text == "kyllä") {
+    numbers.classList.remove("invalid")
+    document.getElementById("feedback1").innerHTML = correct1;
+  }
+    else{numbers.classList.add("invalid") 
+  }
+}
+
+
+
 //tässä muutettu taustan väriä napin painalluksella
 
-let button2 = document.querySelector("#button2")
+let button2 = document.getElementById("button2")
 button2.addEventListener("click", myColorFunction)
 
  function myColorFunction() {
-    document.getElementById("background").style.backgroundColor = "rgb(211, 84, 49);";
-  }  
+    document.getElementById("background").style.backgroundColor = "green";
+  } 
+  
+
 
 
